@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "App-Product-Stock",
-    "slug": "App-Product-Stock",
+    "name": "app-product-stock",
+    "slug": "app-product-stock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "app-product-stock",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
