@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, router } from "expo-router";
 
-import {} from "../tabs/index";
-
 import {
   StyleSheet,
   Text,
@@ -73,7 +71,7 @@ export default function Login() {
 
         <TouchableOpacity style={styles.buttonAdd}>
           <Link
-            href={"/tabs/index"}
+            href={"home"}
             style={{ color: "#fff", fontWeight: "bold", fontSize: 22 }}
             onPress={fixedPassword}
           >
